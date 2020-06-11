@@ -8,5 +8,5 @@ The techinques present are as follows:
 
 Any tips, suggestion reviews are all welcome.
 
-ENJOY!!!!
+CHEERS!!!!
 :)
