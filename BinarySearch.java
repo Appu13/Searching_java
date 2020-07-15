@@ -57,7 +57,7 @@ public class BinarySearch {
 		 System.out.println("Enter the key to be searched");
 		 key=in.nextInt();
 		 
-		 while(low!=high)
+		 while(low<=high)
 		 {
 			 if(key==mid)
 			 {
@@ -67,11 +67,11 @@ public class BinarySearch {
 			 
 			 if(key<mid)
 			 {
-				 high=mid;
+				 high=mid-1;
 			 }
 			 if(key>mid)
 			 {
-				 low=mid;
+				 low=mid+1;
 			 }
 			 mid=(int) ((low+high)/2.0);
 		 }
